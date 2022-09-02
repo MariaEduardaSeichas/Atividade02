@@ -1,0 +1,51 @@
+<meta charset="UTF-8">
+    <link rel="apple-touch-icon" href="images/calc.png"/>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="manifest" href="manifest.json"/>
+    <meta name="theme-color" content="white" />
+     <!--viewport para designers responsivos (mobo), content é a configuração-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Truco</title>
+</head>
+<body class="corp">
+    <div class="centro">
+       <h1>Jogo de Truco</h1>
+       <div>
+        <label for="nome">Nome da Primeira Equipe:</label>
+        <input type="text" id="nome" /> 
+        <div>
+        <label for="nome">Nome da Segunda Equipe:</label>
+        <input type="text" id="nome2" />
+        </div>
+        <button class="bott" onclick="colocarNome()">Enviar</button>
+        <button class="botta" onclick="colocarNome2()">Enviar 2</button>
+
+       </div>
+
+
+       <div class="botoes">
+        <button class="botao1" id="botao1" onclick="calcularPonto()">+1</button>
+        <button class="botao2" id="botao2" onclick="calcularPonto2()">+3</button>
+        <button class="botao3" id="botao3" onclick="calcularPonto3()">+6</button>
+        <button class="botao4" id="botao4" onclick="calcularPonto4()">+12</button>
+       </div>
+       
+       <div class="botaos">
+        <button class="botao5" id="botao5" onclick="calcularPonto5()">+1</button>
+        <button class="botao6" id="botao6" onclick="calcularPonto6()" >+3</button>
+        <button class="botao7" id="botao7" onclick="calcularPonto7()">+6</button>
+        <button class="botao8" id="botao8" onclick="calcularPonto8()">+12</button>
+       </div>
+       <div class="placar">
+        <p>Equipe 1: <p id="nome_equipe"></p></p>
+        <p id="placar">0</p>
+    </div>
+    <div class="placar2">
+        <p>Equipe 2: <p id="nome_equipe2"></p></p>
+        <p id="placar2">0</p>
+    </div>
+     
+    <script src="js/main.js"></script>
+</body>
+</html>

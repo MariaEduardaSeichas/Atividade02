@@ -1,0 +1,108 @@
+.centro{
+    align-items: center;
+    text-align: center;
+    font-style:italic;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.corp{
+    background-color: #7c292c;
+}
+
+.bott{
+    font-style:italic;
+    background-color: #203f30;
+    color: azure;
+    border-radius: 20px;
+    position: relative;
+    top: 9px;
+    bottom: 30px;
+}
+
+.botta{
+    font-style:italic;
+    background-color: #203f30;
+    color: azure;
+    border-radius: 20px;
+    position: relative;
+    top:8px;
+    bottom: 30px;
+}
+
+.botao1{
+    font-style:italic;
+    background-color: #203f30;
+    color: azure;
+    border-radius: 20px;
+}
+
+.botao2{
+    font-style:italic;
+    background-color: #203f30;
+    color: azure;
+    border-radius: 20px;
+}
+
+.botao3{
+    font-style:italic;
+    background-color: #203f30;
+    color: azure;
+    border-radius: 20px;
+}
+
+.botao4{
+    font-style:italic;
+    background-color: #203f30;
+    color: azure;
+    border-radius: 20px;
+}
+
+.botao5{
+    font-style:italic;
+    background-color: #203f30;
+    color: azure;
+    border-radius: 20px;
+}
+
+.botao6{
+    font-style:italic;
+    background-color: #203f30;
+    color: azure;
+    border-radius: 20px;
+}
+
+.botao7{
+    font-style:italic;
+    background-color: #203f30;
+    color: azure;
+    border-radius: 20px;
+}
+
+.botao8{
+    font-style:italic;
+    background-color: #203f30;
+    color: azure;
+    border-radius: 20px;
+}
+
+.botoes{
+    position: relative;
+    top: 30px;
+}
+
+.botaos{
+    position: relative;
+    top: 30px;
+}
+
+.placar{
+    position: relative;
+    top: 30px;
+}
+
+.placar2{
+    position: relative;
+    top: 30px;
+}
